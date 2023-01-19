@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Francis Mudzungayirii | Profile card component</title>
+</head>
+<body class="h-screen bg-Dark-cyan flex justify-center items-center sm:overflow-hidden">
+  <img src="images/bg-pattern-top.svg" alt="" class="absolute -left-52 -top-52 md:-left-1/2 md:-top-3/4 xl:-top-full xl:-left-80">
+  <img src="images/bg-pattern-bottom.svg" alt="" class="absolute top-96 left-1/2">
+  <div class=" w-5/6 rounded-2xl shadow-2xl md:w-1/2 xl:w-1/3">
+    <div class="h-40 w-full  rounded-t-2xl bg-card-pattern bg-cover bg-no-repeat bg-center"></div>
+    <div class=" bg-white relative  rounded-b-2xl">
+      <img class="border-white border-solid border-8 rounded-full relative left-32 -top-16 lg:left-44"
+      src="images/image-victor.jpg" alt=" profile picture image">
+      <p class="text-base lg:text-xl font-bold text-center relative -top-10"> Victor Crest <span id="age" class="font-light ml-2">26</span></p>
+      <p id="city" class="text-center relative -top-8">London</p>
+      <hr class="relative -top-4 border-y-Dark-gray mx-2">
+      <div class="flex flex-row w-full p-4">
+        <div class="w-1/3 text-center">
+          <p class="number font-bold text-Very-dark-blue text-lg lg:text-2xl"> 80K </p>
+          <p class="discription font-extralight text-xs"> Followers </p>
+        </div>
+        <div class="w-1/3 text-center">
+          <p class="discription font-bold text-Very-dark-blue text-lg lg:text-2xl">803K</p>
+          <p class="number font-extralight text-xs">Likes</p>
+        </div>
+        <div class="w-1/3 text-center">
+          <p class="number font-bold text-Very-dark-blue text-lg lg:text-2xl"> 1.4K </p>
+          <p class="discription font-extralight text-xs"> Photos </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
